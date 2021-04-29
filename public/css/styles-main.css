@@ -1,0 +1,405 @@
+:root {
+    --text-dark-orange: #BE612D;
+    --text-light-orange: #FF6633;
+    --text-aquamarine: #00FFFF;
+    --text-yellow: #FFFF66;
+    --text-mostaza: #DEBE79;
+    --text-dark-blue: #2D374E;
+    --text-green: #00ff00;
+    /*#31AB29;*/
+    /* Fonts */
+    --font-Adonais: frontsAdonais;
+    --font-neueMetana-bold: frontsNeueMetana-Bold;
+    --fonts-Digital: fontsDigital;
+    --font-Muro: fontMuro;
+    --font-Rosewell: fontRosewell;
+    /* Size */
+    --size-body: 14.5px;
+    --size-title: 13.5px;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: block;
+}
+
+body {
+    background-image: url("../imagen/fondo.jpg");
+    background-repeat: no-repeat;
+}
+
+.flex-container-body {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    /* align-items: stretch; */
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    /* align-items: flex-start; */
+    /* flex-wrap: nowrap; */
+}
+
+.flex-container-body>div#id_sideLeft {
+    flex-grow: inherit;
+    align-self: start;
+    height: inherit;
+    /* flex: inherit; */
+    /* box-sizing: border-box; */
+    /* background-color: #f1f1f1; */
+    /* width: 100px; */
+    /* margin: 10px; */
+    /* text-align: center; */
+    /* line-height: 75px; */
+    /* font-size: 30px; */
+}
+
+.flex-container-body>div#id_sideCenter {
+    flex-grow: inherit;
+    width: 100%;
+    /* align-self: center; */
+    /* height: 100%; */
+    /* padding: 10px; */
+    /* text-align: center; */
+    /* line-height: 75px; */
+    /* font-size: 30px; */
+}
+
+.flex-container-body>div#id_sideRight {
+    flex-grow: inherit;
+    align-self: end;
+    height: inherit;
+    /* background-color: #f1f1f1; */
+    /* width: 100px; */
+    /* margin: 10px; */
+    /* text-align: center; */
+    /* line-height: 75px; */
+    /* font-size: 30px; */
+}
+
+
+/* .flex-container-centro {
+    /* display: flex; 
+    justify-content: space-between;
+    /* flex-wrap: nowrap; 
+    /* flex-direction: column; 
+}
+
+.flex-container-centro>div {
+    /* background-color: #f1f1f1; 
+    /* width: 100px;
+    /* margin: 10px; 
+    text-align: center;
+    /* line-height: 75px; 
+    /* font-size: 30px; 
+} */
+
+
+/*-------------- Responsive ----------------- */
+
+@media (min-width: 992px) {
+    #pub_izquierda {
+        display: block;
+        height: 100%;
+    }
+    #pub_derecha {
+        display: block;
+        height: 100%;
+    }
+    #pub_arriba {
+        display: none;
+    }
+    #pub_abajo {
+        display: none;
+    }
+}
+
+@media (max-width: 991.98px) {
+    body {
+        background-repeat: repeat-y;
+    }
+    #pub_izquierda {
+        display: none;
+    }
+    #pub_derecha {
+        display: none;
+    }
+    #pub_arriba {
+        display: block;
+        width: 100%;
+    }
+    #pub_abajo {
+        display: block;
+        width: 100%;
+    }
+    .flex-container-body {
+        flex-direction: column;
+        /* align-items: flex-start; */
+    }
+    .flex-container-body>div#id_sideLeft,
+    .flex-container-body>div#id_sideRight {
+        width: 100%;
+        height: 140px;
+    }
+    .flex-container-body>div#id_sideCenter {
+        width: 100%;
+        justify-self: center;
+    }
+}
+
+
+/*-------------- Tipo de letra ----------------- */
+
+@font-face {
+    font-family: frontsAdonais;
+    src: url(../fonts/Adonais.ttf);
+}
+
+@font-face {
+    font-family: frontsNeueMetana-Bold;
+    src: url(../fonts/NeueMetana-Bold.otf);
+}
+
+@font-face {
+    font-family: fontsDigital;
+    src: url(../fonts/wwDigital.ttf)
+}
+
+@font-face {
+    font-family: fontMuro;
+    src: url(../fonts/Muro.otf);
+}
+
+@font-face {
+    font-family: fontRosewell;
+    src: url(../fonts/RosewellBlackRGH.otf);
+}
+
+
+/* 
+button,
+input,
+optgroup,
+select,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.height-total {
+    min-height: 100%;
+} */
+
+
+/* .left-side {
+    float: left;
+}
+
+.right-side {
+    float: right;
+} */
+
+
+/* Se sacó de bootstrap
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+} */
+
+select {
+    width: 100%;
+    color: var(--text-green);
+    background-color: #BA9956;
+    border-color: #BA9956;
+    padding: 4px 2px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    color: var(--text-green);
+    background-color: #BA9956;
+    border-color: #BA9956;
+    /* margin-bottom: 1rem; */
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+    color: #BE612D;
+    font-family: frontsNeueMetana-Bold;
+    font-size: 0.9em;
+    vertical-align: middle;
+    /* margin-bottom: 1rem; */
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+}
+
+label.radio,
+label.checkbox {
+    display: inline-block;
+    background-color: #BA9956;
+    padding: 12px 8px;
+    border: 1px solid #BA9956;
+}
+
+label.radio:hover,
+label.checkbox:hover {
+    background-color: var(--text-dark-orange);
+    border-color: var(--text-dark-orange);
+}
+
+
+/* .sexo input[type="radio"]:focus+label,
+input[type="checkbox"]:focus+label {
+    border: 1px dashed var(--text-dark-orange);
+} */
+
+input[type="radio"]:checked+label,
+input[type="checkbox"]:checked+label {
+    background-color: var(--text-green);
+    border-color: var(--text-green);
+}
+
+h1 {
+    font-family: frontsAdonais;
+    /* text-align: left; esto no tiene que ir aquí */
+    font-size: 2.4em;
+}
+
+
+/* ------------------- Colores ------------------ */
+
+
+/* .text-orange {
+    color: #BE612D;
+} */
+
+.text-yellow {
+    color: var(--text-yellow);
+}
+
+
+/* --------------------- Tooltip ----------------- */
+
+
+/* Contenedor del Tooltip */
+
+div.recompensas {
+    cursor: pointer;
+    /*margin: 100px;*/
+    position: relative;
+    /*width: 350px;*/
+}
+
+
+/* Mostrando los tooltips*/
+
+div.recompensas:hover .tooltip-mine {
+    display: block;
+}
+
+
+/* Tooltip CSS 2.1 */
+
+.tooltip-mine:before {
+    border-right: 6px solid #777777;
+    border-bottom: 6px solid transparent;
+    border-top: 6px solid transparent;
+    left: -6px;
+    content: "";
+    height: 0;
+    bottom: 50%;
+    margin-bottom: -6px;
+    position: absolute;
+    width: 0;
+}
+
+.tooltip-mine {
+    background-color: #777777;
+    color: #FFFFFF;
+    display: none;
+    left: 100%;
+    padding: 15px;
+    position: absolute;
+    top: -30px;
+    width: 100%;
+}
+
+
+/* ------------------- Modal --------------------------- */
+
+
+/* The Modal (background) */
+
+.y_modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+
+/* Modal Content */
+
+.cc_modal-content {
+    /* background-color: #fefefe; */
+    background-image: url("../img/modal/ppverde.png");
+    background-repeat: no-repeat;
+    /* background-origin: content-box; */
+    background-size: 100%;
+    margin: auto;
+    padding: 20px;
+    /* border: 1px solid #888; */
+    width: 32%;
+    /* antes 40*/
+    height: inherit;
+}
+
+
+/* The Close Button */
+
+.y_close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.y_close:hover,
+.y_close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}

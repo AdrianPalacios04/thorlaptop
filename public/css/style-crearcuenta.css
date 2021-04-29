@@ -1,0 +1,199 @@
+div.flex-container-register {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flex-container-register>div.flex-create-right {
+    width: 25%;
+    text-align: center;
+    padding: 22.5% 0 0;
+}
+
+.flex-container-register>.flex-create-center {
+    width: 50%;
+    /* height: 100%; */
+}
+
+.flex-container-register>.flex-create-left {
+    width: 25%;
+    text-align: center;
+    padding: 22.5% 0 0;
+}
+
+.flex-create-center>.content-register {
+    width: 100%;
+    background-image: url("../imagen/createAccount/background585x560.png");
+    background-repeat: repeat-y;
+    background-size: cover;
+    border: 7px solid;
+    border-image: url("../imagen/createAccount/border560x585.png") 8 stretch;
+}
+
+.flex-create-center>.content-register-header {
+    text-align: center;
+    margin: 10% 0 -8%;
+}
+
+.content-register>.content-register-title {
+    margin: 1.5rem;
+    color: var(--text-yellow);
+    font-size: var(--size-title);
+}
+
+.content-register>.content-register-body {
+    margin: 1.5rem;
+    font-family: frontsNeueMetana-Bold;
+    font-size: var(--size-body);
+    color: #FF6633;
+}
+
+.content-register-footer {
+    margin: 1.5rem;
+    text-align: center;
+    font-family: frontsAdonais;
+    font-size: 1.6rem;
+}
+
+.valide {
+    display: inline-flex;
+    font-size: 12.5px;
+}
+
+.valide>div {
+    padding: 2% 0 0 1%;
+}
+
+
+/* --- Responsive - Medium devices (tablets, less than 992px) --- */
+
+@media (min-width: 992px) and (max-width: 1399.98px) {
+    .flex-container-register>div.flex-create-right {
+        width: 20%;
+    }
+    .flex-container-register>.flex-create-center {
+        width: 60%;
+    }
+    .flex-container-register>.flex-create-left {
+        width: 20%;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .flex-container-register>div.flex-create-right {
+        display: none;
+    }
+    .flex-container-register>.flex-create-center {
+        width: 100%;
+        margin: 0 6%;
+        /* height: 100%; */
+    }
+    .flex-container-register>.flex-create-left {
+        display: none;
+    }
+}
+
+
+/* @media (min-width: 992px) and (max-width: 1399.98px) {
+    .flex-container-register>div.flex-create-right {
+        width: 20%;
+        text-align: center;
+        padding: 18em 0 0;
+    }
+    .flex-container-register>.flex-create-center {
+        width: 60%;        
+    }
+    .flex-container-register>.flex-create-left {
+        width: 20%;
+        text-align: center;
+        padding: 18em 0 0;
+    }
+    .flex-create-center>.content-register {
+        height: 520px;
+        padding: 1em 1em;
+    }
+    .content-register>.content-register-title {
+        margin: 0;
+        padding: 0 0 1em;
+    }
+    .content-register>.content-register-body {
+        margin: 0;
+        padding: 0 0 1em;
+    }
+    .content-register-footer {
+        margin: 0;
+        padding: 0.1em 0;
+    }
+}
+
+@media (min-width: 1920px) {
+    #pub_izquierda {
+        display: block;
+    }
+    #pub_derecha {
+        display: block;
+    }
+    #pub_arriba {
+        display: none;
+    }
+    #pub_abajo {
+        display: none;
+    }
+    .content-register>.content-register-title {
+        margin: 2rem;
+        font-size: 0.8rem;
+    }
+    .content-register>.content-register-body {
+        margin: 2rem;
+        font-size: 0.8em;
+    }
+    .content-register-body .valide {
+        font-size: 12.5px;
+    }
+} */
+
+a.btn-sm,
+button.btn-sm {
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+}
+
+a.btn-valide,
+button.btn-valide {
+    width: 100%;
+    color: var(--text-mostaza);
+    background-color: var(--text-dark-blue);
+    border: 1px solid var(--text-dark-blue);
+    font-size: 0.8rem;
+}
+
+a.btn-valided,
+button.btn-valided {
+    width: 100%;
+    /* color: var(--text-mostaza); */
+    background-color: var(--text-green);
+    border: 1px solid var(--text-green);
+    font-size: 0.8rem;
+}
+
+
+/* modal-registro */
+
+.m-title {
+    width: 100%;
+    margin: 10px;
+}
+
+.m-body {
+    width: 100%;
+    margin: 10px;
+}
+#button-aceptar {     
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;        
+}

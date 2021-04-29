@@ -1,0 +1,140 @@
+/* div.flex-container-reglas {
+    display: flex;
+} */
+
+.flex-container-page>.container-page-body {
+    margin: 3% 1% 0;
+}
+
+.flex-container-page>.container-page-footer {
+    display: flex;
+    margin: 0 3%;
+}
+
+.container-page-body>.title {
+    text-align: center;
+    font-family: var(--font-Rosewell);
+    background: linear-gradient(#EDA71C, #F1C33B, #FDF98C);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.container-page-body>.partidas {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 10%;
+}
+
+.partidas .btnjugar {
+    z-index: 10;
+    left: 22%;
+    /* 83px */
+    top: -85px;
+    position: relative;
+}
+
+.partidas div.comment {
+    color: var(--text-mostaza);
+    font-family: var(--font-Rosewell);
+    font-size: 0.8rem;
+    padding: 0 15%;
+    text-align: center;
+}
+
+.container-page-footer>.footer-left>img {
+    /* padding: 0 2rem; */
+    /* width: 50%; */
+    position: absolute;
+    bottom: 0px;
+}
+
+.container-page-footer>.footer-left {
+    width: 50%;
+}
+
+.container-page-footer>.footer-right {
+    width: 50%;
+    text-align: end;
+}
+
+.footer-right>div.menu {
+    
+}
+
+/* Navegador */
+
+nav {
+    width: fit-content;
+    padding: 1em;
+    /* font-family: font-family: Verdana, Geneva, sans-serif; */
+    /*   -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; */
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #000;
+}
+
+nav li a {
+    color: #989875;
+    display: block;
+    text-decoration: none;
+    padding: .5em 1em;
+}
+
+nav li a:hover {
+    background: tomato;
+    color: white;
+}
+
+
+/*  */
+
+@media (max-width: 991.98px) {
+    .container-page-body>.partidas {
+        flex-direction: column;
+    }
+}
+
+
+/*  */
+
+
+/*  */
+
+.container-reglas-body>.reglas-right {
+    width: 25%;
+    text-align: center;
+    padding: 22.5% 0 0;
+}
+
+.container-reglas-body>.reglas-center {
+    width: 50%;
+    /* height: 100%; */
+}
+
+.container-reglas-body>.reglas-left {
+    width: 25%;
+    text-align: center;
+    padding: 22.5% 0 0;
+}
+
+.regla-center-body {
+    width: 100%;
+    background-image: url("../img/createAccount/background585x560.png");
+    background-repeat: repeat-y;
+    background-size: cover;
+    border: 7px solid;
+    border-image: url("../img/createAccount/border560x585.png") 8 stretch;
+}
+
+.regla-center-body>.regla-title>h1 {
+    color: var(--text-yellow);
+    text-align: center;
+}

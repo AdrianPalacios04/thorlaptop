@@ -1,0 +1,69 @@
+/* Esto se repite para el crear cuenta */
+
+div.flex-container-login {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flex-container-login>div.flex-container-form {
+    width: 30%;
+    padding: 1.9rem 2.5rem;
+    color: var(--text-dark-orange);
+}
+
+.flex-container-login>.flex-login-center {
+    width: 40%;
+    text-align: center;
+}
+
+.flex-container-login>.flex-login-left {
+    width: 30%;
+}
+
+.flex-login-center>.login-logo {
+    padding: 30% 2rem 0;
+}
+
+.flex-login-center>a>.login-crear {
+    padding: 10% 2rem 0;
+}
+
+.flex-login-left>.login-cuadrado {
+    padding: 0 2rem;
+    position: absolute;
+    bottom: 0px;
+}
+
+@media (max-width: 991.98px) {
+    div.flex-container-login {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .flex-container-login>div.flex-container-form {
+        width: 100%;
+        padding: 1.9rem 2.5rem;
+    }
+    .flex-container-login>.flex-login-center {
+        width: 100%;
+        text-align: center;
+        padding: 0 20%;
+    }
+    .flex-container-login>.flex-login-left {
+        width: 100%;
+        text-align: center;
+        padding: 0 20%;
+    }
+    .flex-login-center>.login-logo {
+        width: 75%;
+        padding: 0;
+    }
+    .flex-login-center>a>.login-crear {
+        width: 90%;
+        padding: 0 0 10%;
+    }
+    .flex-login-left>.login-cuadrado {
+        padding: 0;
+        position: inherit;
+    }
+}

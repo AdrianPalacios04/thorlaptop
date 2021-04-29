@@ -1,0 +1,905 @@
+@font-face {
+    font-family: 'Adonais';
+    src: url("../fonts/Adonais.ttf");
+  }
+.datos_protegidos{
+  color: #FEFE66;
+  font-family: "Adonais";
+  margin-left: 150px;
+}
+
+/*MEDIDAS PARA EL RESPONSIVE*/
+/*Escritorio*/
+@media (min-width: 1199.98px)  {
+*{
+/*  background: pink;*/
+}
+.recla{
+   width: 96%;
+   margin: 80px auto;
+   background: url('../imagen/reclamaciones/librodereclamaciones2.png');
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   
+}
+label{
+  color: #F36231;
+  text-transform: uppercase;
+  font-size: 0.8em;
+
+}  
+h3,h2{
+  color: #FEFE66;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  font-family: 'Adonais';
+} 
+.recla input{
+  width: 200px !important;
+  background-color: #B99956;
+  border: 0;
+  display: block;
+  padding: 3px;
+  margin-top: -5px;
+  margin-right: 12px;
+
+}
+.recla input:hover,.recla input:focus,textarea:hover,textarea:focus{
+border: none;
+text-decoration: none;
+outline: none;
+
+}
+.form-group{
+  display: inline-block;
+}
+textarea{
+  background-color: #B99956;
+  display: block;
+  width: 415px;
+  height: 100px;
+  color: #91EF00;
+}
+#correo{
+ color: #91EF00; 
+}
+@font-face {
+    font-family: 'Adonais';
+    src: url("../fonts/Adonais.ttf");
+  }
+
+.lado_izq{
+
+  float: left;
+  width: 37%;
+  
+}   
+.lado_der{  
+  float: left;
+  width: 24.5%;
+  margin-left: 8px;
+
+} 
+.lado{
+  margin-top: 38px;   
+  width: 24%;
+  float: left;
+  margin-left: 0px;
+}
+.lados{    
+  margin-top: 5px;
+  margin-left: 150px;
+}
+.subir{
+margin-top: -25px !important;
+}
+
+form{
+  margin: 50px auto;
+  width: 100%;
+  height: auto;  
+
+}
+select#tienda{
+  width: 200px;
+  display: block;
+  height: 30px;
+  
+}
+#ema{
+  margin-left: 10px;
+  width: 200px !important;
+}
+select#tipo{
+  width: 250px;
+  display: block;
+  height: 30px;
+ 
+  
+}
+select:hover, select:focus{    
+  outline: none;
+  border: 0;
+}
+
+.pedido{
+  width: 250px;    
+  display: block;
+  height: 103px;
+}
+.detalle{
+  display: block;    
+  width: 344px;
+  height: 180px;
+
+}
+
+.libros{   
+  width: 90%;
+  margin-top: 60px;
+  margin-left: 150px;
+  padding-top: 35px;
+ 
+}
+hr{
+  padding: 0;
+  margin: 0;
+  width: 85%;
+  border-bottom: 2px solid #FEFE66 !important;
+
+}
+#domicilio{
+  display: none;
+}
+.recla input.dir{
+  width: 402px !important;
+}
+.botonera{
+   
+  margin-left: 500px;
+}
+.boton_personalizado{
+  text-decoration: none;
+  width: 120px;
+  height: 37px;
+  border: 0;    
+  background: url('../imagen/reclamaciones/limpiar.png');
+  background-repeat: no-repeat;    
+}
+
+.boton_personalizado2{
+  text-decoration: none;
+  width: 120px;
+  height: 37px;
+  border: 0;    
+  background: url('../imagen/reclamaciones/cancelar.png');
+  background-repeat: no-repeat;    
+} 
+ .boton_personalizado3{
+  text-decoration: none;
+  width: 120px;
+  height: 37px;
+  border: 0;    
+  background: url('../imagen/reclamaciones/ingresar.png');
+  background-repeat: no-repeat;    
+}
+}
+/*Fin Escritorio*/
+
+/*Tablet*/
+/*Portrait*/
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation:portrait) {
+ *{
+/*  background-color: green;*/
+ }
+.recla{
+   width: 96%;
+   margin: 40px auto;
+   background: url('../imagen/reclamaciones/librodereclamaciones2.png');
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   
+}
+label{
+  color: #F36231;
+  text-transform: uppercase;
+  font-size: 0.8em;
+
+}  
+h3,h2{
+  color: #FEFE66;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  font-family: 'Adonais';
+} 
+.recla input{
+  width: 180px !important;
+  background-color: #B99956;
+  border: 0;
+  display: block;
+  padding: 3px;
+  margin-top: -5px;
+
+}
+.recla input:hover,.recla input:focus,textarea:hover,textarea:focus{
+border: none;
+text-decoration: none;
+outline: none;
+
+}
+.form-group{
+  display: inline-block;
+}
+textarea{
+  background-color: #B99956;
+  display: block;
+  width: 190px;
+  height: 100px;
+   color: #91EF00;
+}
+#correo{
+ color: #91EF00; 
+
+}
+@font-face {
+    font-family: 'Adonais';
+    src: url("../fonts/Adonais.ttf");
+  }
+
+.lado_izq{ 
+  float: left;
+  width: 32%;
+  
+}   
+.lado_der{  
+  float: left;
+  width: 25%;
+  margin-left: 0px;
+
+} 
+.lado{
+  margin-top: 38px;   
+  width: 25%;
+  float: left;
+  margin-left: 50px;
+
+}
+.lados{    
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.subir{
+margin-top: -25px !important;
+}
+
+form{
+  margin: 50px auto;
+  width: 85%;
+  height: auto;
+
+
+}
+select#tienda{
+  width: 190px;
+  display: block;
+  height: 30px;
+  margin-bottom: 10px;
+  
+}
+#ema{
+  width: 190px !important;
+}
+select#tipo{
+  width: 200px;
+  display: block;
+  height: 30px;   
+  
+}
+select:hover, select:focus{    
+  outline: none;
+  border: 0;
+}
+
+.pedido{
+  margin-top: 70px;
+  width: 200px;    
+  display: block;
+  height: 102px;
+}
+.detalle{
+  margin-top: 35px;
+  display: block;    
+  width: 210px;
+  height: 245px;
+
+}
+
+.libros{   
+  width: 100%;
+  margin-top: 60px;
+  margin-left: 5px;
+  padding-top: 35px;
+ 
+}
+hr{
+  padding: 0;
+  margin: 0;
+  width: 85%;
+  border-bottom: 2px solid #FEFE66 !important;
+
+}
+#domicilio{
+  display: none;
+}
+.recla input.dir{
+  width: 402px !important;
+}
+.botonera{
+   
+  margin-left: 150px;
+}
+ .boton_personalizado{
+  text-decoration: none;
+  width: 120px;
+  height: 37px;
+  border: 0;    
+  background: url('../imagen/reclamaciones/limpiar.png');
+  background-repeat: no-repeat;    
+}
+
+.boton_personalizado2{
+  text-decoration: none;
+  width: 120px;
+  height: 37px;
+  border: 0;    
+  background: url('../imagen/reclamaciones/cancelar.png');
+  background-repeat: no-repeat;    
+} 
+ .boton_personalizado3{
+  text-decoration: none;
+  width: 120px;
+  height: 37px;
+  border: 0;    
+  background: url('../imagen/reclamaciones/ingresar.png');
+  background-repeat: no-repeat;    
+}
+}
+
+/*landscape*/
+@media (min-width: 991.98px) and (max-width: 1199.98px)and (orientation:landscape) {
+*{
+ /* background-color: yellow;*/
+ }
+.recla{
+   width: 100%;
+   background: url('../imagen/reclamaciones/librodereclamaciones2.png');
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   
+}
+label{
+  color: #F36231;
+  text-transform: uppercase;
+  font-size: 0.8em;
+
+}  
+h3,h2{
+  color: #FEFE66;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  font-family: 'Adonais';
+} 
+.recla input{
+  width: 100px !important;
+  background-color: #B99956;
+  border: 0;
+  display: block;
+  padding: 3px;
+  margin-top: -5px;
+
+}
+.recla input:hover,.recla input:focus,textarea:hover,textarea:focus{
+border: none;
+text-decoration: none;
+outline: none;
+
+}
+.form-group{
+  display: inline-block;
+}
+textarea{
+  background-color: #B99956;
+  display: block;
+  width: 410px;
+  height: 100px;
+   color: #91EF00;
+}
+#correo{
+ color: #91EF00; 
+
+}
+@font-face {
+    font-family: 'Adonais';
+    src: url("../fonts/Adonais.ttf");
+  }
+
+.lado_izq{
+
+  float: left;
+  width: 60%;
+  
+}   
+.lado_der{
+
+  float: left;
+  width: 60%;
+  margin-left: 25px;
+
+} 
+.lado{
+  margin-top: 38px;
+ 
+  width: 25%;
+  float: left;
+  margin-left: 10px;
+}
+.lados{
+  
+  margin-top: 5px;
+  margin-left: 60px;
+}
+.subir{
+margin-top: -25px !important;
+}
+
+form{
+  margin: 50px auto;
+  width: 100%;
+  height: auto;
+
+
+}
+select#tienda{
+  width: 200px;
+  display: block;
+  height: 30px;
+  
+}
+select#tipo{
+  width: 250px;
+  display: block;
+  height: 30px;
+ 
+  
+}
+select:hover, select:focus{    
+  outline: none;
+  border: 0;
+}
+
+.pedido{
+  width: 250px;    
+  display: block;
+  height: 103px;
+}
+.detalle{
+
+  display: block;    
+  width: 260px;
+  height: 180px;
+
+}
+
+.libros{   
+  width: 80%;
+  margin-top: 60px;
+  margin-left: 60px;
+  padding-top: 35px;
+ 
+}
+hr{
+  padding: 0;
+  margin: 0;
+  width: 85%;
+  border-bottom: 2px solid #FEFE66 !important;
+
+}
+#domicilio{
+  display: none;
+}
+.recla input.dir{
+  width: 402px !important;
+}
+.botonera{
+margin-left: 150px;     
+display: inline-block;
+}
+
+
+ .boton_personalizado{
+  text-decoration: none;
+  width: 120px;
+  height: 37px;
+  border: 0;    
+  background: url('../imagen/reclamaciones/limpiar.png');
+  background-repeat: no-repeat;    
+}
+
+.boton_personalizado2{
+  text-decoration: none;
+  width: 120px;
+  height: 37px;
+  border: 0;    
+  background: url('../imagen/reclamaciones/cancelar.png');
+  background-repeat: no-repeat;    
+} 
+ .boton_personalizado3{
+  text-decoration: none;
+  width: 120px;
+  height: 37px;
+  border: 0;    
+  background: url('../imagen/reclamaciones/ingresar.png');
+  background-repeat: no-repeat;    
+}
+}
+/*fin tablet*/
+
+/*movil*/
+/*Portrait*/
+/*Default*/
+@media (max-width: 575.98px)and (orientation:portrait) {
+  *{
+ /* background-color: yellow;*/
+ }
+.recla{
+   width: 100%;
+   margin: 40px auto;
+   background: url('../imagen/reclamaciones/librodereclamaciones2.png');
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   
+}
+label{
+  color: #F36231;
+  text-transform: uppercase;
+  font-size: 0.8em;
+
+}  
+h3,h2{
+  color: #FEFE66;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  font-family: 'Adonais';
+} 
+.recla input{
+  width: 200px !important;
+  background-color: #B99956;
+  border: 0;
+  display: block;
+  padding: 3px;
+  margin-top: -5px;
+
+}
+.recla input:hover,.recla input:focus,textarea:hover,textarea:focus{
+border: none;
+text-decoration: none;
+outline: none;
+
+}
+.form-group{
+  display: inline-block;
+}
+textarea{
+  background-color: #B99956;
+  display: block;
+  width: 385px;
+  height: 100px;
+   color: #91EF00;
+}
+#correo{
+ color: #91EF00; 
+
+}
+@font-face {
+    font-family: 'Adonais';
+    src: url("../fonts/Adonais.ttf");
+  }
+
+.lado_izq{ 
+  float: left;
+  width: 100%;
+  
+}   
+.lado_der{  
+  float: left;
+  width: 90%;
+  margin-left: 0px;
+
+} 
+.lado{
+  
+  width: 100%;
+  float: left;
+ 
+
+}
+.lados{    
+ 
+  margin-left: 25px;
+}
+.subir{
+margin-top: -25px !important;
+}
+
+form{
+  margin: 50px auto;
+  width: 85%;
+  height: auto;
+
+
+}
+select#tienda{
+  width: 190px;
+  display: block;
+  height: 30px;
+  margin-bottom: 10px;
+  
+}
+#ema{
+  width: 190px !important;
+}
+select#tipo{
+  width: 380px;
+  display: block;
+  height: 30px;
+ 
+  
+}
+select:hover, select:focus{    
+  outline: none;
+  border: 0;
+}
+
+.pedido{
+  width: 380px;    
+  display: block;
+  height: 102px;
+}
+.detalle{
+  
+  display: block;    
+  width: 380px;
+  height: 100px;
+
+}
+
+.libros{   
+  width: 100%;
+  margin-top: 60px;
+  margin-left: 25px;
+  padding-top: 35px;
+ 
+}
+hr{
+  padding: 0;
+  margin: 0;
+  width: 85%;
+  border-bottom: 2px solid #FEFE66 !important;
+
+}
+#domicilio{
+  display: none;
+}
+.recla input.dir{
+  width: 402px !important;
+}
+.botonera{
+   
+  margin-left: 35px;
+}
+ .boton_personalizado{
+  text-decoration: none;
+  width: 120px;
+  height: 37px;
+  border: 0;    
+  background: url('../imagen/reclamaciones/limpiar.png');
+  background-repeat: no-repeat;    
+}
+
+.boton_personalizado2{
+  text-decoration: none;
+  width: 120px;
+  height: 37px;
+  border: 0;    
+  background: url('../imagen/reclamaciones/cancelar.png');
+  background-repeat: no-repeat;    
+} 
+ .boton_personalizado3{
+  text-decoration: none;
+  width: 120px;
+  height: 37px;
+  border: 0;    
+  background: url('../imagen/reclamaciones/ingresar.png');
+  background-repeat: no-repeat;    
+}
+}
+/*landscape*/
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation:landscape) {
+ *{
+/*  background-color: red;*/
+ }
+.recla{
+   width: 96%;
+   margin: 40px auto;
+   background: url('../imagen/reclamaciones/librodereclamaciones2.png');
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   
+}
+label{
+  color: #F36231;
+  text-transform: uppercase;
+  font-size: 0.8em;
+
+}  
+h3,h2{
+  color: #FEFE66;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  font-family: 'Adonais';
+} 
+.recla input{
+  width: 180px !important;
+  background-color: #B99956;
+  border: 0;
+  display: block;
+  padding: 3px;
+  margin-top: -5px;
+
+}
+.recla input:hover,.recla input:focus,textarea:hover,textarea:focus{
+border: none;
+text-decoration: none;
+outline: none;
+
+}
+.form-group{
+  display: inline-block;
+}
+textarea{
+  background-color: #B99956;
+  display: block;
+  width: 240px;
+  height: 100px;
+   color: #91EF00;
+}
+#correo{
+ color: #91EF00; 
+
+}
+@font-face {
+    font-family: 'Adonais';
+    src: url("../fonts/Adonais.ttf");
+  }
+
+.lado_izq{ 
+  float: left;
+  width: 32%;
+  
+}   
+.lado_der{  
+  float: left;
+  width: 25%;
+  margin-left: 0px;
+
+} 
+.lado{
+  margin-top: 38px;   
+  width: 25%;
+  float: left;
+  margin-left: 50px;
+
+}
+.lados{    
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.subir{
+margin-top: -25px !important;
+}
+
+form{
+  margin: 50px auto;
+  width: 85%;
+  height: auto;
+
+
+}
+select#tienda{
+  width: 240px;
+  display: block;
+  height: 30px;
+  margin-bottom: 10px;
+  
+}
+#ema{
+  width: 240px !important;
+}
+select#tipo{
+  width: 235px;
+  display: block;
+  height: 30px;
+ 
+  
+}
+select:hover, select:focus{    
+  outline: none;
+  border: 0;
+}
+
+.pedido{
+  margin-top: 50px;
+  width: 230px;    
+  display: block;
+  height: 102px;
+}
+.detalle{
+  margin-top: 35px;
+  display: block;    
+  width: 220px;
+  height: 228px;
+
+}
+
+.libros{   
+  width: 100%;
+  margin-top: 60px;
+  margin-left: 5px;
+  padding-top: 35px;
+ 
+}
+hr{
+  padding: 0;
+  margin: 0;
+  width: 85%;
+  border-bottom: 2px solid #FEFE66 !important;
+
+}
+#domicilio{
+  display: none;
+}
+.recla input.dir{
+  width: 402px !important;
+}
+.botonera{
+   
+  margin-left: 200px;
+}
+ .boton_personalizado{
+  text-decoration: none;
+  width: 120px;
+  height: 37px;
+  border: 0;    
+  background: url('../imagen/reclamaciones/limpiar.png');
+  background-repeat: no-repeat;    
+}
+
+.boton_personalizado2{
+  text-decoration: none;
+  width: 120px;
+  height: 37px;
+  border: 0;    
+  background: url('../imagen/reclamaciones/cancelar.png');
+  background-repeat: no-repeat;    
+} 
+ .boton_personalizado3{
+  text-decoration: none;
+  width: 120px;
+  height: 37px;
+  border: 0;    
+  background: url('../imagen/reclamaciones/ingresar.png');
+  background-repeat: no-repeat;    
+}
+}
+/*fin movil*/
+/*MEDIDAS PARA EL RESPONSIVE*/
